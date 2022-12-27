@@ -1,8 +1,5 @@
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
+const NavBar = () => {
+    return (
         <nav>
           <h1>Ecommerce</h1>
           <div>
@@ -12,8 +9,7 @@ function App() {
             <button>Patisserie</button>
           </div>
         </nav>
-    </div>
-  );
+    )
 }
 
-export default App;
+export default NavBar
